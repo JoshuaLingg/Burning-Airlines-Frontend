@@ -22,6 +22,7 @@ export const Root = ( props ) => {
 
     return (
         <div>
+            
             <form onSubmit={ _handleSubmit }>
                 <input type="search" required autoFocus placeholder="Enter your name" onInput={ _handleInput } />
                 <input type="submit" value={ `Get ${ username } account` } />
