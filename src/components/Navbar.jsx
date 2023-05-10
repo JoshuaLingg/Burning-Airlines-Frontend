@@ -1,10 +1,12 @@
 function Navbar() {
   return(
     <div>
-      <a href="/" className="nav-button"> Home</a>
-      <a href="/flights" className="nav-button"> Flights</a>
-      <a href="/search" className="nav-button"> Search</a>
-      <a href="/flight/1" className="nav-button"> FlightSeats</a>
+      <ul className="nav-list">
+        <li className="nav-button"><a href="/" >Home</a></li>
+        <li className="nav-button"><a href="/flights">Flights</a></li>
+        <li className="nav-button"><a href="/search">Search</a></li>
+        <li className="nav-button"><a href="/flight/1">FlightSeats</a></li>
+      </ul>
     </div>
   );
 };
