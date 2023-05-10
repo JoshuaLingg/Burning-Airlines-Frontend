@@ -21,12 +21,18 @@ export const Root = ( props ) => {
     };
 
     return (
-        <div>
+        <div className="container">
             
+            <h1>Welcome to Burning Airline</h1>
+
             <form onSubmit={ _handleSubmit }>
                 <input type="search" required autoFocus placeholder="Enter your name" onInput={ _handleInput } />
                 <input type="submit" value={ `Get ${ username } account` } />
             </form>
+            <br />
+            <p>Temporary shortcut</p>
+            <a href="/flights" className="nav-button"> Flights</a>
+
         </div>
     );
 };

@@ -4,8 +4,12 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-// import App from './App.jsx'
 import './index.css';
+import './css/main.css';
+import './css/navbar.css';
+import './css/flight-input.css';
+import './css/flight-display.css';
+import './css/seat-selection.css';
 import { Root } from "./routes/root";
 import Flights from './routes/Flights';
 import Search from './routes/Search';

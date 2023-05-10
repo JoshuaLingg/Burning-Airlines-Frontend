@@ -5,9 +5,15 @@ import FlightSearch from "../components/FlightSearch";
 function Flights() {
   return (
     
-    <div>
+    <div className="container">
+      <Navbar />
       <FlightDisplay /> 
       <FlightSearch />
+
+  
+
+      <p>Flight input for creating and Flight display are coming soon</p>
+
     </div>
 
     
