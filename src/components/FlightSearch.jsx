@@ -1,27 +1,30 @@
+import { useState } from "react";
+import axios from "axios";
+
 function FlightSearch() {
-    const flights = [
-      {
-        Date: '3/1/13',
-        Flight: 23,
-        FromTo: 'JFK > SFO',
-        Plane: 757,
-      }
-    ]
+    const allFlights = () => {
+        const [flights, setFlights] = useState();
+        const fetchFlights = () =>{
+            axios().then()
+        }
+    }
+
+    
     return (
       <div>
-        <h1>Flights</h1>
+        <h1>Flight Search Result</h1>
         <table>
           <tr>
             <th>Date</th>
             <th>Flight</th>
-            <th>From > To</th>
+            <th>From {">"} To</th>
             <th>Plane</th>
           </tr>
           <tr>
-            <td>{flights[0].Date}</td>
-            <td>{flights[0].Flight}</td>
-            <td>{flights[0].FromTo}</td>
-            <td>{flights[0].Plane}</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
    
         </table>
