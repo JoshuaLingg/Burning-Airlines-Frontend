@@ -1,10 +1,11 @@
-import SeatSelection from "../components/SeatSelection";
+import Navbar from "../components/Navbar";
 
 function FlightSeats() {
   return (
-    <div>
-      <SeatSelection />
-      FLight seats working
+    <div className="container">
+      <Navbar />
+
+      <p>Seat selection is coming soon</p>
     </div>
   );
 };
