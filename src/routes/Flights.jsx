@@ -3,9 +3,10 @@ import Navbar from "../components/Navbar";
 function Flights() {
   return (
     
-    <div>
+    <div className="container">
       <Navbar />
-      its owrking
+
+      <p>Flight input for creating and Flight display are coming soon</p>
     </div>
   );
 };
