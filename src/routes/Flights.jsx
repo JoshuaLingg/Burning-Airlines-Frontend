@@ -1,12 +1,16 @@
 import Navbar from "../components/Navbar";
+import FlightDisplay from "../components/FlightDisplay"
+import FlightSearch from "../components/FlightSearch";
 
 function Flights() {
   return (
     
     <div>
-      <Navbar />
-      its owrking
+      <FlightDisplay /> 
+      <FlightSearch />
     </div>
+
+    
   );
 };
 
