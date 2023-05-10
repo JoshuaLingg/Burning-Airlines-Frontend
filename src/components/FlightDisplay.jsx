@@ -15,7 +15,7 @@ function FlightDisplay() {
         <tr>
           <th>Date</th>
           <th>Flight</th>
-          <th>From > To</th>
+          <th>From {">"} To</th>
           <th>Plane</th>
           <th>Seat</th>
         </tr>
