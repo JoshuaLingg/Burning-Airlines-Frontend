@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function Seat(props) {
-  const [value, setValue] = useState(props.name ? props.name : 'avail');
+  const [value, setValue] = useState(props.name === 'false' ? 'avail': props.name);
 
   const _handleClick = (e) => {
     setValue(props.user);
