@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
-import FlightDisplay from "../components/FlightDisplay"
+import FlightInput from "../components/FlightInput";
+import FlightDisplay from "../components/FlightDisplay";
 import FlightSearch from "../components/FlightSearch";
 
 function Flights() {
@@ -7,6 +8,7 @@ function Flights() {
     
     <div className="container">
       <Navbar />
+      <FlightInput formType="create"/>
       <FlightDisplay /> 
       <FlightSearch />
 

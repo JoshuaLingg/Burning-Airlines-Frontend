@@ -1,4 +1,5 @@
 import FlightInput from "../components/FlightInput";
+import FlightDisplay from "../components/FlightDisplay";
 import Navbar from "../components/Navbar";
 
 function Search() {
@@ -6,8 +7,8 @@ function Search() {
     <div className="container">
       <Navbar />
 
-      <p>Flight input for searching and Flight display are coming soon</p>
-      <FlightInput />
+      <FlightInput formType="search"/>
+      <FlightDisplay />
     </div>
   );
 };
